@@ -7,3 +7,8 @@ Crypto
 packaging
 tk
 wmi
+fastapi[all]
+pillow
+pywin32
+pypiwin32
+pyuac

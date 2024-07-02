@@ -1,0 +1,12 @@
+**/__pycache__/
+
+# for now
+winpwnage/
+obfuscate.py
+
+dist/
+build/
+*.spec
+
+venv/
+.venv/
