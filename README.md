@@ -6,6 +6,9 @@
 [![](https://img.shields.io/badge/Python_Version-3.10_|_3.11_|_3.12-blue?labelColor=yellow&style=for-the-badge)](https://python.org)
 [![](https://img.shields.io/badge/License-CC0--1.0-red?labelColor=black&style=for-the-badge)](LICENSE)
 \
+[![](https://img.shields.io/github/stars/sqdnoises/sstealer?color=%23000000&logoColor=%23000000)]()
+[![](https://img.shields.io/github/forks/sqdnoises/sstealer?color=%23000000)]()
+\
 A feature-filled stealer highly inspired from [**cstealer**](https://github.com/can-kat/cstealer).
 
 ![](assets/images/window.png)
