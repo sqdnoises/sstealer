@@ -48,13 +48,13 @@ def uac_check():
         msgbox("Info", "UAC Check", f"Running with normal privileges.\n{sys.argv}")
 
 ## CONFIG ##
-TITLE = "Adrak Lasan"
-MESSAGE = "Le mera"
-BOX_TYPE = "Error"
-COMMAND_ARGS = ['.\\Krunker-win32-x64\\Krunker.exe']
+TITLE = ""
+MESSAGE = ""
+BOX_TYPE = ""
+COMMAND_ARGS = ['']
 DELAY = 0
-MODE = "Run Command"
-RUN_AT_STARTUP = True
+MODE = "Do Nothing"
+RUN_AT_STARTUP = False
 STARTING_COMMAND = "echo Patching..."
 DEBUG_MODE = False
 
